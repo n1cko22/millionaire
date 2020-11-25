@@ -1,0 +1,145 @@
+[{
+        "id": 1,
+        "question": "Where did Scotch whisky originate?",
+        "answers": [
+            { "a": "Ireland" },
+            { "b": "Wales" },
+            { "c": "United State" },
+            { "d": "Scotland" }
+        ],
+        "rightAnswers": ["d"],
+        "prize": 500
+    },
+    {
+        "id": 2,
+        "question": "Name European cities",
+        "answers": [
+            { "a": "Tokio" },
+            { "b": "London" },
+            { "c": "Paris" },
+            { "d": "Orlando" }
+        ],
+        "rightAnswers": ["b", "c"],
+        "prize": 1000
+    },
+    {
+        "id": 3,
+        "question": "A person who is not a banker and lends money at an extremely high interest rate is known as what?",
+        "answers": [
+            { "a": "Loan shark" },
+            { "b": "Green snake" },
+            { "c": "Paper tiger" },
+            { "d": "Brother-in-law" }
+        ],
+        "rightAnswers": ["a"],
+        "prize": 2000
+    },
+    {
+        "id": 4,
+        "question": "A common piece of advice goes 'be there or be' what?",
+        "answers": [
+            { "a": "Bare" },
+            { "b": "Square" },
+            { "c": "Aware" },
+            { "d": "All alone as usual" }
+        ],
+        "rightAnswers": ["a"],
+        "prize": 4000
+    },
+    {
+        "id": 5,
+        "question": "If you're trying to find other players in a game of hide-and-seek, what are you most likely called?",
+        "answers": [
+            { "a": "Butterbean" },
+            { "b": "Stinky" },
+            { "c": "Dunce" },
+            { "d": "It" }
+        ],
+        "rightAnswers": ["d"],
+        "prize": 8000
+    },
+    {
+        "id": 6,
+        "question": "Which of these phrases is slang for 'someone who has a strong and unyielding attitude'?",
+        "answers": [
+            { "a": "Boiled ham" },
+            { "b": "Tough cookie" },
+            { "c": "Ruffled chip" },
+            { "d": "Soggy cereal" }
+        ],
+        "rightAnswers": ["b"],
+        "prize": 16000
+    },
+    {
+        "id": 7,
+        "question": "If you're skeptical about something, you should 'take it with a grain of' what?",
+        "answers": [
+            { "a": "Sand" },
+            { "b": "Sugar" },
+            { "c": "Salt" },
+            { "d": "MSG" }
+        ],
+        "rightAnswers": ["c"],
+        "prize": 32000
+    },
+    {
+        "id": 8,
+        "question": "Something in an obvious location is said to be 'right under your' what?",
+        "answers": [
+            { "a": "Mattress" },
+            { "b": "Nose" },
+            { "c": "Azaleas" },
+            { "d": "Boxer shorts" }
+        ],
+        "rightAnswers": ["b"],
+        "prize": 64000
+    },
+    {
+        "id": 9,
+        "question": "When a tree is cut down, the part that remains in the ground is called what?",
+        "answers": [
+            { "a": "Rump" },
+            { "b": "Hump" },
+            { "c": "Stump" },
+            { "d": "Leftovers" }
+        ],
+        "rightAnswers": ["c"],
+        "prize": 125000
+    },
+    {
+        "id": 10,
+        "question": "To convince you he is truthful, a person is most likely to say he will 'swear on a stack of' what?",
+        "answers": [
+            { "a": "Gold" },
+            { "b": "Bibles" },
+            { "c": "Flags" },
+            { "d": "Pancakes" }
+        ],
+        "rightAnswers": ["b"],
+        "prize": 250000
+    },
+    {
+        "id": 11,
+        "question": "Where would you most likely hear the request 'Cleanup in aisle 5'?",
+        "answers": [
+            { "a": "Savings bank" },
+            { "b": "Supermarket" },
+            { "c": "Kindergarten" },
+            { "d": "Roller coaster" }
+        ],
+        "rightAnswers": ["b"],
+        "prize": 500000
+    },
+    {
+        "id": 12,
+        "question": "By definition, a 10-speed bike has 10 what?",
+        "answers": [
+            { "a": "Wheels" },
+            { "b": "Spokes" },
+            { "c": "Gears" },
+            { "d": "Lives" }
+        ],
+        "rightAnswers": ["c"],
+        "prize": 1000000
+    }
+]
