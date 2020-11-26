@@ -9,14 +9,14 @@ import Game from "./components/Game";
 import Start from "./components/Start";
 
 const App = () => {
-//  const path = process.env.PUBLIC_URL;
-//  console.log(path)
+const path = process.env.PUBLIC_URL;
+console.log(path)
 
   return (
     <Router>
       <GlobalStyle />
       <Switch>
-        <Route exact path={"/"} component={Start} />
+        <Route exact path={path + "/"} component={Start} />
         <Route exact path={"/game"} component={Game} />
         <Route exact path={"/results"} component={End} />
       </Switch>
