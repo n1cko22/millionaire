@@ -9,7 +9,7 @@ import Game from "./components/Game";
 import Start from "./components/Start";
 
 const App = () => {
-const path = process.env.PUBLIC_URL;
+const path = process;
 console.log(path)
 
   return (
