@@ -34,7 +34,6 @@ export default function GamePanel({
 
   const showQuestion = (answers) =>
     answers.map((answer, idx) => {
-      // destructure entries of answer to get key of answer and actual answer
       const [key, answ] = Object.entries(answer)[0];
       return (
         <Option

@@ -2,11 +2,14 @@
     "name": "genesis",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "homepage": "http://n1cko22.github.io/millionaire",
+    "main": "dist/index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack-dev-server --mode development --open --hot",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "keywords": [],
     "author": "",
@@ -33,7 +36,7 @@
         "eslint-plugin-prettier": "^3.1.4",
         "prettier": "2.2.0",
         "webpack": "^4.32.2",
-        "webpack-cli": "^3.3.2",
+        "webpack-cli": "^4.2.0",
         "webpack-dev-server": "^3.5.1"
     }
 }

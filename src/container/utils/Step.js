@@ -2,7 +2,6 @@ import React from "react";
 import { StepSvg } from "./blocks/Svg";
 
 export default function Step(props) {
-  // to show commas
   const formatPrize = props.currentPrize
     .toString()
     .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
