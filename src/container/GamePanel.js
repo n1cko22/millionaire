@@ -16,7 +16,7 @@ const QuestionWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  @media screen and (min-width: 425px) {
+  @media screen and (min-width: 672px) {
     width: 40rem;
     text-align: start;
   }
