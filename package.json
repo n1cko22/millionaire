@@ -34,11 +34,7 @@
     },
     "gh-pages-deploy": {
         "staticpath": "dist",
-        "cname": "nope.org",
-        "prep": [
-            "build-sass",
-            "optimize-img"
-        ],
+
         "commit": "a custom commit message",
         "post": [
             "clean-source"
