@@ -33,13 +33,7 @@
         "svg-url-loader": "^6.0.0"
     },
     "gh-pages-deploy": {
-        "staticpath": "dist",
-
-        "commit": "a custom commit message",
-        "post": [
-            "clean-source"
-        ],
-        "noprompt": false
+        "staticpath": "dist"
     },
     "devDependencies": {
         "eslint-plugin-prettier": "^3.1.4",
