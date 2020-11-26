@@ -2,7 +2,7 @@
     "name": "genesis",
     "version": "1.0.0",
     "description": "",
-    "homepage": "http://n1cko22.github.io/millionaire",
+    "homepage": "https://n1cko22.github.io/millionaire/",
     "main": "dist/index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
