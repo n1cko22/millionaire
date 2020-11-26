@@ -1,6 +1,6 @@
 {
-    "name": "genesis",
-    "version": "1.0.0",
+    "name": "millionaire-n1cko",
+    "version": "1.0.1",
     "description": "",
     "homepage": "https://n1cko22.github.io/millionaire/",
     "main": "index.js",
@@ -9,7 +9,8 @@
         "start": "webpack-dev-server --mode development --open --hot",
         "build": "webpack --mode production",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "NODE_ENV=production webpack",
+        "publish": "git checkout gh-pages && git merge master && npm run deploy && git commit -am 'Deploy' && git push origin gh-pages && git checkout @{-1}"
     },
     "keywords": [],
     "author": "",
